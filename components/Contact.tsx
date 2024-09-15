@@ -34,7 +34,7 @@ const Contact = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Built by Taarik Ashenafi © 2024
+          Taarik Ashenafi © 2024
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
