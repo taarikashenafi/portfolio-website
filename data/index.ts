@@ -8,11 +8,11 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
+      title: "NBA Stats Predictor",
+      des: "A machine learning-driven application that predicts NBA player statistics for the upcoming season.",
+      img: "/NBA_Stats_Predictor.png",
+      iconLists: ["/pandas.svg", "/python-5.svg", "/xgboost.svg", "numpy-1.svg", "/scikit-learn.svg"],
+      link: "https://nbastatspredictor.streamlit.app/",
     },
     {
       id: 2,
