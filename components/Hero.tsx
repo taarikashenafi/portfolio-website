@@ -14,7 +14,7 @@ const Hero = () => {
         </h2>
 
         <p className="text-white-200 text-sm md:text-2xl max-w-xl mt-6 text-center">
-          Welcome to my corner of the web!
+          let me tell you a little bit about myself
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center mt-200">
         <a href="#projects">
