@@ -11,14 +11,13 @@ import { projects } from "@/data";
 const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
-      <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-red">recent projects</span>
-      </h1>
+      <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
+        Projects
+      </h2>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
           <CardContainer key={item.id} className="inter-var">
-            <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
+            <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-red-500/[0.2] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
               <CardItem translateZ="50" className="text-xl font-bold text-neutral-600 dark:text-white">
                 {item.title}
               </CardItem>

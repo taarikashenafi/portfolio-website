@@ -5,8 +5,7 @@ import MagicButton from "./MagicButton";
 
 const Contact = () => {
   return (
-    <div className="h-[50rem] w-full dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative flex items-center justify-center">
-      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+    <div className="h-[50rem] w-full bg-gradient-to-tl from-bg-light via-bg-light to-bg-dark dark:bg-gradient-to-tl dark:from-bg-dark dark:via-bg-dark dark:to-bg-light relative flex items-center justify-center">
         <footer className="w-full pt-20 pb-10" id="contact">
           {/* background grid */}
           {/* <div className="w-full absolute left-0 -bottom-72 min-h-96">
@@ -18,11 +17,11 @@ const Contact = () => {
           </div> */}
 
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
-          Ready to <span className="text-red">hire</span> me{" "}?
-        </h1>
+        <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
+          Ready to work with me?
+        </h2>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today so i can be a winning addition to your team.
+          Reach out to me today so we can discuss potential opportunities.
         </p>
         <a href="mailto:supertaarik@gmail.com">
           <MagicButton
@@ -34,7 +33,7 @@ const Contact = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Taarik Ashenafi © 2024
+          Taarik Ashenafi © {new Date().getFullYear()}
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
