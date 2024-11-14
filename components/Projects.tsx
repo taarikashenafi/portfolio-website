@@ -5,12 +5,25 @@ import React from "react";
 import { CardContainer, CardBody, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
 import Image from 'next/image';
+import { DotPattern } from "@/components/ui/dot-pattern";
+import { cn } from "@/utils/cn";
+
 
 import { projects } from "@/data";
 
 const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
+      <DotPattern
+          width={20}
+          height={20}
+          cx={1}
+          cy={1}
+          cr={1}
+          className={cn(
+            "[mask-image:radial-gradient(700px_circle_at_center,white,transparent)]",
+          )}
+        />
       <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
         Projects
       </h2>
@@ -31,6 +44,7 @@ const RecentProjects = () => {
                   height={1000}
                   width={1000}
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                  priority={true}
                 />
               </CardItem>
               <div className="flex justify-between items-center mt-20">

@@ -5,9 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const About = () => {
   return (
-    <Card>
-      
-    </Card>
+    <div className="div">About</div>
   )
 }
 

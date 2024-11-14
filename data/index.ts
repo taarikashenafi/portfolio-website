@@ -14,14 +14,14 @@ export const navItems = [
       iconLists: ["/pandas.svg", "/python-5.svg", "/xgboost.svg", "numpy-1.svg", "/scikit-learn.svg"],
       link: "https://nbastatspredictor.streamlit.app/",
     },
-    // {
-    //   id: 2,
-    //   title: "Yoom - Video Conferencing App",
-    //   des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    //   img: "/p2.svg",
-    //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    //   link: "/ui.yoom.com",
-    // },
+    {
+      id: 2,
+      title: "Investment Advisor",
+      des: "A full-stackweb application that aims to help users make informed decisions about their investments.",
+      img: "/investmentAdvisor.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      link: "https://investment-advisor.vercel.app/",
+    },
     // {
     //   id: 3,
     //   title: "AI Image SaaS - Canva Application",

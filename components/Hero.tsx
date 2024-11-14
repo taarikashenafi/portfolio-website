@@ -4,11 +4,24 @@ import { FlipWords } from "./ui/flip-words";
 import MagicButton from "./MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import { BackgroundLines } from "./ui/background-lines";
+import { DotPattern } from "@/components/ui/dot-pattern";
+import { cn } from "@/utils/cn";
+
 
 
 const Hero = () => {
   return (
     <div className="relative w-full h-screen bg-cover bg-no-repeat bg-fixed">
+      <DotPattern
+          width={20}
+          height={20}
+          cx={1}
+          cy={1}
+          cr={1}
+          className={cn(
+            "[mask-image:radial-gradient(700px_circle_at_center,white,transparent)]",
+          )}
+        />
       <BackgroundLines>
         <div className="absolute inset-0 flex flex-col items-center justify-center">
           <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
