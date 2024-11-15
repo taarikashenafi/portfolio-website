@@ -15,7 +15,7 @@ const About = () => {
               build useable and engaging applications. From front-end magic to robust back-end solutions, I enjoy turning ideas into real world solutions.
               When I&apos;m not coding, you&apos;ll probably find me watching soccer passionately, running,or just unwinding with some
               good music. My journey in tech has been about constant learning,
-              and I'm always excited about what&apos;s next.
+              and I&apos;m always excited about what&apos;s next.
             </CardSpotlight>
           </div>
         </div>
