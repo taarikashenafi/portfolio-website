@@ -1,5 +1,4 @@
 "use client";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import dynamic from "next/dynamic";
 const DynamicProjects = dynamic(() => import('@/components/Projects'), { ssr: false });
@@ -25,4 +24,5 @@ export default function Home() {
     </main>
   );
 }
+
 
