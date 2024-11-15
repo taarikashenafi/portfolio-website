@@ -1,5 +1,8 @@
 "use client";
 
+import dynamic from "next/dynamic";
+const DynamicProjects = dynamic(() => import('@/components/Projects'), { ssr: false });
+
 import { navItems } from "@/data";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 
@@ -15,7 +18,7 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         <About />
-        <Projects />
+        <DynamicProjects />
         <Contact />
       </div>
     </main>

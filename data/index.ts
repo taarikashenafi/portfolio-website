@@ -11,7 +11,7 @@ export const navItems = [
       title: "NBA Stats Predictor",
       des: "A machine learning-driven application that predicts NBA player statistics for the upcoming season.",
       img: "/NBA_Stats_Predictor.png",
-      iconLists: ["/pandas.svg", "/python-5.svg", "/xgboost.svg", "numpy-1.svg", "/scikit-learn.svg"],
+      iconLists: ["python-5.svg", "pandas.svg", "numpy-1.svg", "scikit-learn.svg"],
       link: "https://nbastatspredictor.streamlit.app/",
     },
     {
@@ -19,7 +19,7 @@ export const navItems = [
       title: "Investment Advisor",
       des: "A full-stackweb application that aims to help users make informed decisions about their investments.",
       img: "/investmentAdvisor.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["javascript.svg", "react.svg", "tailwindcss.svg", "mongodb.svg", "firebase.svg"],
       link: "https://investment-advisor.vercel.app/",
     },
     // {
@@ -47,9 +47,14 @@ export const navItems = [
       url: 'https://github.com/taarikashenafi',
     },
     {
-      id: 3,
+      id: 2,
       img: "/link.svg",
       url: 'https://www.linkedin.com/in/taarik-ashenafi/',
+    },
+    {
+      id: 3,
+      img: "/file.svg",
+      url: '/TaarikAshenafiResume.pdf',
     },
   ];
 

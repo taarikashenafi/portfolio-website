@@ -1,33 +1,20 @@
 "use client";
 
-import { FaLocationArrow } from "react-icons/fa6";
 import React from "react";
 import { CardContainer, CardBody, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
 import Image from 'next/image';
-import { DotPattern } from "@/components/ui/dot-pattern";
-import { cn } from "@/utils/cn";
 
 
 import { projects } from "@/data";
 
-const RecentProjects = () => {
+const Projects = () => {
   return (
     <div className="py-20" id="projects">
-      <DotPattern
-          width={20}
-          height={20}
-          cx={1}
-          cy={1}
-          cr={1}
-          className={cn(
-            "[mask-image:radial-gradient(700px_circle_at_center,white,transparent)]",
-          )}
-        />
-      <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
+      <h2 className="text-[#E33333] text-2xl md:text-6xl font-bold text-center">
         Projects
       </h2>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-5">
         {projects.map((item) => (
           <CardContainer key={item.id} className="inter-var">
             <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-red-500/[0.2] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
@@ -61,7 +48,7 @@ const RecentProjects = () => {
                           transform: `translateX(-${5 * index + 2}px)`,
                         }}
                       >
-                        <img src={icon} alt="icon" className="p-2" />
+                        <Image src={icon} alt="icon" className="p-2" width={100} height={100} />
                       </div>
                     ))}
                   </div>
@@ -75,4 +62,4 @@ const RecentProjects = () => {
   );
 };
 
-export default RecentProjects;
+export default Projects;
