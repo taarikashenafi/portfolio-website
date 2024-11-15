@@ -11,11 +11,11 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="max-w-2xl text-white-200 md:text-lg text-base leading-relaxed">
             <CardSpotlight className="text-center mt-10 mb-4">
-              I’m Taarik, a computer science student at the <span className="text-[#E33333]">University of Houston</span> who loves to
+              I&apos;m Taarik, a computer science student at the <span className="text-[#E33333]">University of Houston</span> who loves to
               build useable and engaging applications. From front-end magic to robust back-end solutions, I enjoy turning ideas into real world solutions.
-              When I’m not coding, you’ll probably find me watching soccer passionately, running,or just unwinding with some
+              When I&apos;m not coding, you&apos;ll probably find me watching soccer passionately, running,or just unwinding with some
               good music. My journey in tech has been about constant learning,
-              and I'm always excited about what’s next.
+              and I'm always excited about what&apos;s next.
             </CardSpotlight>
           </div>
         </div>
