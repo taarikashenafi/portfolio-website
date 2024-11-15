@@ -17,7 +17,7 @@ export const navItems = [
     {
       id: 2,
       title: "Investment Advisor",
-      des: "A full-stackweb application that aims to help users make informed decisions about their investments.",
+      des: "A full-stack web application that aims to help users make informed decisions about their investments.",
       img: "/investmentAdvisor.png",
       iconLists: ["javascript.svg", "react.svg", "tailwindcss.svg", "mongodb.svg", "firebase.svg"],
       link: "https://investment-advisor.vercel.app/",
