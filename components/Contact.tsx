@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <div className="h-[50rem] w-full bg-no-repeat bg-cover bg-fixed relative flex items-center justify-center">
+    <div className="h-[50rem] w-full bg-no-repeat bg-cover bg-background bg-fixed relative flex items-center justify-center">
       <footer className="w-full pt-20" id="contact">
         <div className="flex flex-col items-center">
           <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
