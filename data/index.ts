@@ -12,7 +12,7 @@ export const navItems = [
       des: "A machine learning-driven application that predicts NBA player statistics for the upcoming season.",
       img: "/NBA_Stats_Predictor.png",
       iconLists: ["python-5.svg", "pandas.svg", "numpy-1.svg", "scikit-learn.svg"],
-      link: "https://github.com/taarikashenafi/NBA_Stats_Predictor,
+      link: "https://github.com/taarikashenafi/NBA_Stats_Predictor",
     },
     {
       id: 2,
