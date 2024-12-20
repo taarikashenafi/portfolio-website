@@ -12,7 +12,7 @@ export const navItems = [
       des: "A machine learning-driven application that predicts NBA player statistics for the upcoming season.",
       img: "/NBA_Stats_Predictor.png",
       iconLists: ["python-5.svg", "pandas.svg", "numpy-1.svg", "scikit-learn.svg"],
-      link: "https://nbastatspredictor.streamlit.app/",
+      link: "https://github.com/taarikashenafi/NBA_Stats_Predictor,
     },
     {
       id: 2,
@@ -20,7 +20,7 @@ export const navItems = [
       des: "A full-stack web application that aims to help users make informed decisions about their investments.",
       img: "/investmentAdvisor.png",
       iconLists: ["javascript.svg", "react.svg", "tailwindcss.svg", "mongodb.svg", "firebase.svg"],
-      link: "https://investment-advisor.vercel.app/",
+      link: "https://github.com/taarikashenafi/investment-advisor",
     },
     // {
     //   id: 3,
