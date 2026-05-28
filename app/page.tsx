@@ -1,19 +1,28 @@
-import Navbar from '@/components/layout/Navbar';
-import Footer from '@/components/layout/Footer';
-import Hero from '@/components/sections/Hero';
-import About from '@/components/sections/About';
-import Projects from '@/components/sections/Projects';
-import Contact from '@/components/sections/Contact';
+"use client";
+
+import dynamic from "next/dynamic";
+const DynamicProjects = dynamic(() => import('@/components/Projects'), { ssr: false });
+
+import { navItems } from "@/data";
+import { FloatingNav } from "@/components/ui/floating-navbar";
+
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
+    <main className="relative bg-bg-dark flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+      <div className="max-w-7xl w-full">
+        <FloatingNav navItems={navItems} />
+        <Hero />
+        <About />
+        <DynamicProjects />
+        <Contact />
+      </div>
     </main>
   );
 }
+
+
