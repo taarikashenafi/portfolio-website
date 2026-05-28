@@ -1,0 +1,23 @@
+name: Accessibility Scanner
+
+on:
+workflow_dispatch:
+schedule:
+- cron: "0 14 * * 1" # every Monday at 14:00 UTC
+jobs:
+accessibility_scanner:
+runs-on: ubuntu-latest
+steps:
+- uses: github/accessibility-scanner@v3
+with:
+urls: |
+https://taarikashenafi.com
+https://taarikashenafi.com/about
+https://taarikashenafi.com/projects
+https://taarikashenafi.com/contact
+repository: YOUR_GITHUB_USERNAME/YOUR_REPO_NAME
+token: ${{ secrets.GH_TOKEN }}
+cache_key: cached_results-taarikashenafi.com-main.json
+include_screenshots: true
+open_grouped_issues: true
+skip_copilot_assignment: false
