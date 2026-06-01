@@ -9,7 +9,7 @@ import { Vortex } from './ui/vortex';
 
 const Hero = () => {
   return (
-    <Vortex className="relative w-full h-screen bg-cover bg-no-repeat bg-fixed" backgroundColor='transparent'>
+    <Vortex className="relative w-full h-screen bg-cover bg-no-repeat bg-fixed" backgroundColor="#000000">
         <div className="absolute inset-0 flex flex-col items-center justify-center">
           <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
             Hi I&apos;m Taarik, a <FlipWords words={words} color="#E33333" />.
@@ -31,4 +31,3 @@ const Hero = () => {
   );
 }
 export default Hero
-
